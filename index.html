@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Carros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="imagem">
+            <img src="./3c35c23c922833a71a94e7d5faf28b88-logotipo-do-servico-de-venda-de-carros.png" alt="#">
+        </section>
+        <section class="principal">
+            <h1 class="titulo">Revenda de Carros</h1>
+            <hr>
+            <form action="#">
+                <label for="inModelo">
+                    Modelo:
+                    <input type="text" id="inModelo" autofocus required>
+                </label>
+                <label for="inPreco">
+                    Preço:
+                    <input type="text" id="inPreco" autofocus required>
+                    <input type="submit" value="Adicionar">
+                </label>
+                <label for="botoes">
+                    <input type="button" value="Listar Todos" id="btnListar">
+                    <input type="button" value="Filtrar por Preço" id="btnFiltrar">
+                    <input type="button" value="Simular Promoção" id="btnPromo">
+                </label>
+            </form>
+            <pre></pre>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

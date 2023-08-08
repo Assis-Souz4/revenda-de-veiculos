@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body > main {
+  margin: 0 auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  max-width: 1000px;
+  height: 100vh;
+  gap: 50px;
+  background-color: #8bb4bd;
+}
+.imagem img {
+  display: block;
+  max-width: 100%;
+  padding-top: 30px;
+}
+.principal h1 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+.principal hr {
+  margin-bottom: 20px;
+}
+form label + label {
+  padding-top: 10px;
+}
+label {
+  display: block;
+}
+input[type="text"],
+[type="number"] {
+  min-width: 60%;
+}
+input[type="submit"] {
+  width: 118px;
+}
+label[for="botoes"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+pre{
+  padding: 20px 0;
+}
